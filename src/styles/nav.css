@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+  .gotohome,.gotocart{
+    cursor: pointer;
+  }
+  .navbarcart{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  .emptycart{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+  .allcartitems{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
